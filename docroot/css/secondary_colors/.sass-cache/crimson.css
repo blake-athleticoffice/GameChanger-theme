@@ -1,0 +1,33 @@
+.secondary-crimson .navbar-nav > li.active > a {
+  border-bottom: 4px solid #930d18; }
+.secondary-crimson .navbar-nav > li > a:hover {
+  border-bottom: 4px solid #930d18; }
+.secondary-crimson .copyright {
+  background: #930d18; }
+@media screen and (max-width: 600px) {
+  .secondary-crimson #main-nav .navbar-brand {
+    color: #930d18; }
+  .secondary-crimson .navbar-nav > li.active > a {
+    border-bottom: none;
+    color: #930d18; }
+  .secondary-crimson .navbar-nav > li > a:hover {
+    border-bottom: none;
+    color: #930d18; } }
+.secondary-crimson .wowmenu.tiny .navbar-nav > li.active > a {
+  border-bottom: 4px solid #930d18; }
+.secondary-crimson .portlet-title-text {
+  border-bottom: 4px solid #930d18; }
+@media screen and (min-width: 600px) {
+  .secondary-crimson .navbar-header {
+    background: #930d18; } }
+.secondary-crimson .btn-primary {
+  background-color: #930d18;
+  border-color: #930d18; }
+.secondary-crimson .theme-color {
+  color: #930d18; }
+.secondary-crimson .theme-background {
+  background: #930d18; }
+.secondary-crimson .nav .open > a, .secondary-crimson .nav .open > a:hover, .secondary-crimson .nav .open > a:focus {
+  background-color: transparent;
+  border-color: #930d18; }
+

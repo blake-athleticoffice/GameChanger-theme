@@ -1,0 +1,22 @@
+@import "compass";
+@import "gamechanger-variables";
+
+.light {
+
+@media screen and (max-width: 600px) {
+#inner-nav.opened > ul {
+background: rgba(255, 255, 255, 0.9) !important;
+}
+}
+	
+#nav-toggle {
+color: #bbb;
+}
+@media screen and (max-width: 600px){
+.navbar-nav > li > a {
+color: #777;
+}
+}
+
+
+}

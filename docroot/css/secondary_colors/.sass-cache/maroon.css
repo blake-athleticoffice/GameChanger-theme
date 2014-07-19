@@ -1,0 +1,33 @@
+.secondary-maroon .navbar-nav > li.active > a {
+  border-bottom: 4px solid maroon; }
+.secondary-maroon .navbar-nav > li > a:hover {
+  border-bottom: 4px solid maroon; }
+.secondary-maroon .copyright {
+  background: maroon; }
+@media screen and (max-width: 600px) {
+  .secondary-maroon #main-nav .navbar-brand {
+    color: maroon; }
+  .secondary-maroon .navbar-nav > li.active > a {
+    border-bottom: none;
+    color: maroon; }
+  .secondary-maroon .navbar-nav > li > a:hover {
+    border-bottom: none;
+    color: maroon; } }
+.secondary-maroon .wowmenu.tiny .navbar-nav > li.active > a {
+  border-bottom: 4px solid maroon; }
+.secondary-maroon .portlet-title-text {
+  border-bottom: 4px solid maroon; }
+@media screen and (min-width: 600px) {
+  .secondary-maroon .navbar-header {
+    background: maroon; } }
+.secondary-maroon .btn-primary {
+  background-color: maroon;
+  border-color: maroon; }
+.secondary-maroon .theme-color {
+  color: maroon; }
+.secondary-maroon .theme-background {
+  background: maroon; }
+.secondary-maroon .nav .open > a, .secondary-maroon .nav .open > a:hover, .secondary-maroon .nav .open > a:focus {
+  background-color: transparent;
+  border-color: maroon; }
+

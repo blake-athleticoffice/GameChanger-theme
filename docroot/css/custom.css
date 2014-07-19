@@ -1,0 +1,81 @@
+@import "compass";
+@import "mixins";
+
+@import url(./gamechanger.css);
+@import url(./color-schemes.css);
+@import url(./custom-dockbar.css);
+
+#inner-nav.opened {
+display: block !important;
+margin-top: 20px;
+}
+#inner-nav.opened > ul {
+float:none !important;
+}
+#inner-nav.opened > ul > li {
+width:100%;
+}
+#inner-nav.opened > ul > li > a {
+padding-left: 40px;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+line-height:30px !important;
+transition: none;
+-webkit-transition: none;
+}
+@media screen and (max-width: 600px) {
+#main-nav {
+padding-top: 2px !important;
+padding-bottom: 2px !important;
+}
+#main-nav .navbar-brand {
+margin-top: 10px;
+font-size: 16px;
+}
+
+}
+
+.aui.js-nav-active body {
+overflow:hidden;
+position: fixed;
+}
+
+
+#nav-toggle {
+background-color:#fff;
+padding: 6px !important;
+cursor: pointer;
+}
+
+.js .nav-collapse-0.opened {
+max-height:200px !important;
+}
+
+.mask {
+
+  background: rgba(0,0,0,.7);
+  visibility: hidden;
+  position: fixed;
+  opacity: 0;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+}
+.js-nav-active .mask{
+ visibility: visible;
+  opacity: .5;
+}
+@media screen and (min-width: 40em) {
+  .mask {
+    display: none !important;
+    opacity: 0 !important;
+  }
+}
+.portlet-asset-publisher .asset-title a:hover {
+text-decoration: none;
+}

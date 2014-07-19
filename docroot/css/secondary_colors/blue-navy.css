@@ -1,0 +1,57 @@
+@import "compass";
+@import "gamechanger-variables";
+
+
+.secondary-blue-navy {
+
+.navbar-nav > li.active > a {
+border-bottom: 4px solid $color-blue-navy;
+}
+.navbar-nav > li > a:hover {
+border-bottom: 4px solid $color-blue-navy;
+}
+.copyright {
+background: $color-blue-navy;
+}
+
+@media screen and (max-width: 600px){
+#main-nav .navbar-brand {
+color: $color-blue-navy;
+}
+.navbar-nav > li.active > a {
+border-bottom: none;
+color:$color-blue-navy;
+}
+.navbar-nav > li > a:hover {
+border-bottom: none;
+color:$color-blue-navy;
+}
+}
+.wowmenu.tiny .navbar-nav > li.active > a {
+border-bottom: 4px solid $color-blue-navy;
+}
+.portlet-title-text {
+border-bottom: 4px solid $color-blue-navy;
+}
+
+@media screen and (min-width: 600px) {
+.navbar-header {
+background: $color-blue-navy;
+}
+}
+.btn-primary {
+background-color: $color-blue-navy;
+border-color: $color-blue-navy;
+}
+.theme-color {
+color: $color-blue-navy;
+}
+.theme-background {
+background: $color-blue-navy;
+}
+.nav .open > a,.nav .open > a:hover, .nav .open > a:focus {
+background-color: transparent;
+border-color: $color-blue-navy;
+}
+
+}

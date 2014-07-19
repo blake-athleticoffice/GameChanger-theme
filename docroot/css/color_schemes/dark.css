@@ -1,0 +1,36 @@
+@import "compass";
+@import "gamechanger-variables";
+
+.dark {
+	
+.wowmenu.tiny {
+top: 0;
+background: rgba(0, 0, 0, 0.80) !important;
+}
+@media screen and (max-width: 600px) {
+.navbar {
+background-color: transparent !important;
+}
+#inner-nav.opened > ul {
+background: rgba(0, 0, 0, 0.5) !important;
+}
+}
+.wowmenu.tiny .navbar-nav > li > a {
+color: #ccc;
+}
+.wowmenu.tiny .navbar-nav > li.active > a {
+	color: #fff;
+}
+#nav-toggle {
+color: #fff;
+}
+.navbar-nav>li>.dropdown-menu {
+background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.dropdown-menu > li > a {
+border-bottom: 1px solid #222 !important;
+}
+	
+}
+
+

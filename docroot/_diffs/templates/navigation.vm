@@ -1,0 +1,47 @@
+<nav class="navbar navbar-fixed-top wowmenu" role="navigation" id="main-nav">
+                  <div class="visible-lg">
+							#if ($is_signed_in)
+							<div class="pull-left" style="margin-left:25px;">
+				<a class="icon icon-2x icon-cog" href="javascript:;" id="toggleDockbar"></a>
+				</div>
+			#end
+			</div>
+	<div class="container">
+		<div class="navbar-header">
+		<a href="$site_default_url" class="masthead-logo"><img alt="$logo_description" src="$site_logo" /></a>
+		<h5 class="site-name">$headline</h5>
+			 <span id="nav-toggle" class="navbar-toggle">
+			 <span class="icon icon-2x icon-reorder"></span>
+             </span>
+		</div>
+		<div class="nav-collapse" id="inner-nav">
+		<ul class="nav navbar-nav pull-right l_tinynav1">
+			#foreach ($nav_item in $nav_items)
+						#set ($nav_item_attr_selected="")
+						#set ($nav_item_css_class="")
+
+					#if ($nav_item.isSelected())
+						#set ($nav_item_css_class="active")
+					#end
+					
+
+					#if (!$nav_item.hasChildren())
+						<li class="$nav_item_css_class"><a href="$nav_item.getURL()" >$nav_item.getName()</a></li>
+						
+					#else
+					#set ($nav_item_css_class="dropdown" + $nav_item_css_class)
+					<li class="$nav_item_css_class">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">$nav_item.getName()</a>
+					<ul class="dropdown-menu">
+					#foreach ($nav_child in $nav_item.getChildren())
+					<li><a href="$nav_child.getURL()">$nav_child.getName()</a></li>
+					#end
+					</ul>
+					</li>
+					#end
+				
+					#end
+		</ul>
+		</div>
+	</div>
+	</nav>

@@ -1,0 +1,57 @@
+@import "compass";
+@import "gamechanger-variables";
+
+
+.secondary-maroon {
+
+.navbar-nav > li.active > a {
+border-bottom: 4px solid $color-maroon;
+}
+.navbar-nav > li > a:hover {
+border-bottom: 4px solid $color-maroon;
+}
+.copyright {
+background: $color-maroon;
+}
+
+@media screen and (max-width: 600px){
+#main-nav .navbar-brand {
+color: $color-maroon;
+}
+.navbar-nav > li.active > a {
+border-bottom: none;
+color:$color-maroon;
+}
+.navbar-nav > li > a:hover {
+border-bottom: none;
+color:$color-maroon;
+}
+}
+.wowmenu.tiny .navbar-nav > li.active > a {
+border-bottom: 4px solid $color-maroon;
+}
+.portlet-title-text {
+border-bottom: 4px solid $color-maroon;
+}
+
+@media screen and (min-width: 600px) {
+.navbar-header {
+background: $color-maroon;
+}
+}
+.btn-primary {
+background-color: $color-maroon;
+border-color: $color-maroon;
+}
+.theme-color {
+color: $color-maroon;
+}
+.theme-background {
+background: $color-maroon;
+}
+.nav .open > a,.nav .open > a:hover, .nav .open > a:focus {
+background-color: transparent;
+border-color: $color-maroon;
+}
+
+}

@@ -1,0 +1,33 @@
+.secondary-orange .navbar-nav > li.active > a {
+  border-bottom: 4px solid #ffa319; }
+.secondary-orange .navbar-nav > li > a:hover {
+  border-bottom: 4px solid #ffa319; }
+.secondary-orange .copyright {
+  background: #ffa319; }
+@media screen and (max-width: 600px) {
+  .secondary-orange #main-nav .navbar-brand {
+    color: #ffa319; }
+  .secondary-orange .navbar-nav > li.active > a {
+    border-bottom: none;
+    color: #ffa319; }
+  .secondary-orange .navbar-nav > li > a:hover {
+    border-bottom: none;
+    color: #ffa319; } }
+.secondary-orange .wowmenu.tiny .navbar-nav > li.active > a {
+  border-bottom: 4px solid #ffa319; }
+.secondary-orange .portlet-title-text {
+  border-bottom: 4px solid #ffa319; }
+@media screen and (min-width: 600px) {
+  .secondary-orange .navbar-header {
+    background: #ffa319; } }
+.secondary-orange .btn-primary {
+  background-color: #ffa319;
+  border-color: #ffa319; }
+.secondary-orange .theme-color {
+  color: #ffa319; }
+.secondary-orange .theme-background {
+  background: #ffa319; }
+.secondary-orange .nav .open > a, .secondary-orange .nav .open > a:hover, .secondary-orange .nav .open > a:focus {
+  background-color: transparent;
+  border-color: #ffa319; }
+

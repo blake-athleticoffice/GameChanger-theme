@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  .light #inner-nav.opened > ul {
+    background: rgba(255, 255, 255, 0.9) !important; } }
+.light #nav-toggle {
+  color: #bbb; }
+@media screen and (max-width: 600px) {
+  .light .navbar-nav > li > a {
+    color: #777; } }
+

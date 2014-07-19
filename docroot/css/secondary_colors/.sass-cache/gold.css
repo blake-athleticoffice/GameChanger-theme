@@ -1,0 +1,33 @@
+.secondary-gold .navbar-nav > li.active > a {
+  border-bottom: 4px solid #b89b00; }
+.secondary-gold .navbar-nav > li > a:hover {
+  border-bottom: 4px solid #b89b00; }
+.secondary-gold .copyright {
+  background: #b89b00; }
+@media screen and (max-width: 600px) {
+  .secondary-gold #main-nav .navbar-brand {
+    color: #b89b00; }
+  .secondary-gold .navbar-nav > li.active > a {
+    border-bottom: none;
+    color: #b89b00; }
+  .secondary-gold .navbar-nav > li > a:hover {
+    border-bottom: none;
+    color: #b89b00; } }
+.secondary-gold .wowmenu.tiny .navbar-nav > li.active > a {
+  border-bottom: 4px solid #b89b00; }
+.secondary-gold .portlet-title-text {
+  border-bottom: 4px solid #b89b00; }
+@media screen and (min-width: 600px) {
+  .secondary-gold .navbar-header {
+    background: #b89b00; } }
+.secondary-gold .btn-primary {
+  background-color: #b89b00;
+  border-color: #b89b00; }
+.secondary-gold .theme-color {
+  color: #b89b00; }
+.secondary-gold .theme-background {
+  background: #b89b00; }
+.secondary-gold .nav .open > a, .secondary-gold .nav .open > a:hover, .secondary-gold .nav .open > a:focus {
+  background-color: transparent;
+  border-color: #b89b00; }
+

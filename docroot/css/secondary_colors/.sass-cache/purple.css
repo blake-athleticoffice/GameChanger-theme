@@ -1,0 +1,33 @@
+.secondary-purple .navbar-nav > li.active > a {
+  border-bottom: 4px solid #553679; }
+.secondary-purple .navbar-nav > li > a:hover {
+  border-bottom: 4px solid #553679; }
+.secondary-purple .copyright {
+  background: #553679; }
+@media screen and (max-width: 600px) {
+  .secondary-purple #main-nav .navbar-brand {
+    color: #553679; }
+  .secondary-purple .navbar-nav > li.active > a {
+    border-bottom: none;
+    color: #553679; }
+  .secondary-purple .navbar-nav > li > a:hover {
+    border-bottom: none;
+    color: #553679; } }
+.secondary-purple .wowmenu.tiny .navbar-nav > li.active > a {
+  border-bottom: 4px solid #553679; }
+.secondary-purple .portlet-title-text {
+  border-bottom: 4px solid #553679; }
+@media screen and (min-width: 600px) {
+  .secondary-purple .navbar-header {
+    background: #553679; } }
+.secondary-purple .btn-primary {
+  background-color: #553679;
+  border-color: #553679; }
+.secondary-purple .theme-color {
+  color: #553679; }
+.secondary-purple .theme-background {
+  background: #553679; }
+.secondary-purple .nav .open > a, .secondary-purple .nav .open > a:hover, .secondary-purple .nav .open > a:focus {
+  background-color: transparent;
+  border-color: #553679; }
+

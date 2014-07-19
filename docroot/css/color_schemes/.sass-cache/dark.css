@@ -1,0 +1,19 @@
+.dark .wowmenu.tiny {
+  top: 0;
+  background: rgba(0, 0, 0, 0.8) !important; }
+@media screen and (max-width: 600px) {
+  .dark .navbar {
+    background-color: transparent !important; }
+  .dark #inner-nav.opened > ul {
+    background: rgba(0, 0, 0, 0.5) !important; } }
+.dark .wowmenu.tiny .navbar-nav > li > a {
+  color: #ccc; }
+.dark .wowmenu.tiny .navbar-nav > li.active > a {
+  color: #fff; }
+.dark #nav-toggle {
+  color: #fff; }
+.dark .navbar-nav > li > .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8) !important; }
+.dark .dropdown-menu > li > a {
+  border-bottom: 1px solid #222 !important; }
+
